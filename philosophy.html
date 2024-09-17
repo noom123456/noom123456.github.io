@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ปรัชญาและพันธกิจ</title>
+    <style>
+        @font-face {
+            font-family: 'THSarabunNew';
+            src: url('https://example.com/thsarabunnew-webfont.woff2') format('woff2'),
+                 url('https://example.com/thsarabunnew-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            font-family: 'THSarabunNew', Arial, sans-serif;
+            margin: 0;
+            background: linear-gradient(135deg, #f0f9ff, #90caf9);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        div.container { 
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+            padding: 20px;
+        } 
+        div.box {
+            width: 800px;
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            margin: auto;
+            position: relative;
+            overflow: hidden;
+        }
+        header, footer { 
+            padding: 1em; 
+            color: white; 
+            background-color: #0097a7; 
+            text-align: center; 
+            width: 100%;
+        } 
+        .menu {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-right: 20px;
+        }
+
+        .menu a {
+            display: inline-block;
+            width: 150px;
+            height: 50px;
+            background-color: #00838f;
+            border-radius: 10px;
+            text-align: center;
+            line-height: 50px;
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .menu a:hover {
+            transform: scale(1.1);
+            background-color: #005662;
+        }
+
+        .content {
+            text-align: center;
+        }
+
+        h2 {
+            color: #00838f;
+            font-size: 36px;
+        }
+
+        p {
+            font-size: 24px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header> 
+        <h1>ปรัชญาและพันธกิจของวิทยาลัยเทคนิคสัตหีบ</h1> 
+    </header>
+    <div class="container"> 
+        <div class="menu">
+            <a href="index.html">หน้าแรก</a>
+            <a href="abount.html">ประวัติความเป็นมา</a>
+            <a href="identity.html">อัตลักษณ์</a>
+            <a href="philosophy.html">ปรัชญา</a>
+            <a href="policy.html">นโยบาย</a>
+            <a href="123.pdf" target="_blank">ทำเนียบผู้บริหาร</a>
+            <a href="Rezume.html">ผู้จัดทำ</a>
+            <a href="work.pdf" target="_blank">ใบงาน</a>
+            <a href="form.html">ฟอร์ม</a>
+        </div>
+        <div class="box">
+            <div class="content">
+                <h2>ปรัชญา</h2>
+                <p>“เรียนดี  มีวินัย  ใฝ่สร้างสรรค์  ขยันทำงาน  ผสานคุณธรรม”</p>
+
+                <h2>วิสัยทัศน์</h2>
+                <p>“เป็นองค์กรแห่งการเรียนรู้สู่ความเป็นเลิศทางด้านวิชาชีพเพื่อการทำงาน”</p>
+
+                <h2>พันธกิจ (Mission)</h2>
+                <p>1. การบริหารจัดการเชิงรุก โดยผู้บริหารมีภาวะผู้นำ</p>
+                <p>2. การสร้างความเป็นหุ้นส่วน (Partnership)</p>
+                <p>3. การพัฒนาหลักสูตรและการจัดการเรียนการสอนให้สอดคล้องกับความต้องการของตลาดแรงงาน (Demand Driven)</p>
+                <p>4. การส่งเสริมการเรียนรู้ตลอดชีวิต (Lifelong Learning)</p>
+                <p>5. วิจัย พัฒนา และการจัดองค์การแห่งการเรียนรู้ (Research/learning organization)</p>
+                <p>6. บูรณาการปรัชญาเศรษฐกิจพอเพียงในการบริหารงานทุกภาคส่วน</p>
+                <p>7. เป็นองค์กรที่มีหน้าที่รับรองสมรรถนะของบุคคลตามมาตรฐานอาชีพ</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>วิทยาลัยเทคนิคสัตหีบ กม.160 193 หมู่ 3 ต.นาจอมเทียน อ.สัตหีบ จ.ชลบุรี 20250</p>
+    </footer>
+</body>
+</html>
